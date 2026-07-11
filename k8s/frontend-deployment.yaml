@@ -16,7 +16,7 @@ spec:
       - name: dockerhub-secret
       containers:
       - name: frontend
-        image: YOUR_DOCKERHUB_USERNAME/bibliodrop-frontend:latest
+        image: ashikahammad/bibliodrop-frontend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000

@@ -16,7 +16,7 @@ spec:
       - name: dockerhub-secret
       containers:
       - name: backend
-        image: YOUR_DOCKERHUB_USERNAME/bibliodrop-backend:latest
+        image: ashikahammad/bibliodrop-backend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
